@@ -1,0 +1,110 @@
+.hero {
+    position: relative;
+    // background-color: rgba(47, 48, 58, 0.4);
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), 
+    url(../../../Images/fon.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100vw;
+    height: 700px;
+    margin: 0 auto;
+  }
+
+  .img {
+    // position: relative;
+    // background-color: rgba(47, 48, 58, 0.4);
+    // background-repeat: no-repeat;
+    // background-size: cover;
+    // max-width: 100vw;
+    // height: 700px;
+    // margin: 0 auto;
+  }
+
+//   .hero__box {
+//     position: relative;
+    
+//   }
+
+.title {
+    top: 264px;
+    position: absolute;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 140%;
+    color: #FFFFFF;
+    height: 310px;
+    width: 586px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 15px 30px;
+    margin-left: 90px;
+    background: rgba(51, 51, 51, 0.5);
+}
+
+  .btn {
+    position: absolute;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 140%;
+    color: #333333;
+    background-color: #EC1B2E;
+    width: 163px;
+    height: 58px;
+    margin-top: 486px;
+    margin-left: 90px;
+    border: none;
+  }
+
+  .btn:focus,
+  .btn:hover {
+    background: rgb(65, 7, 12);
+}
+
+  .box__arrow {
+      display: flex;
+  }
+
+  .rigth {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 315px;
+    margin-left: 50px;
+    height: 70px;
+    width: 70px;
+    background-color: #EC1B2E;
+  }
+
+  .rigth__icon{
+    fill: #333333;
+    left: 20px;
+  }
+
+  .left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 315px;
+    margin-left: 1530px;
+    height: 70px;
+    width: 70px;
+    background-color: #EC1B2E;
+
+  }
+
+  // --first-title-text-color: #333333;
+  // --firs-btn-text-color: #fff;
+  // --accent-color: #EC1B2E;
+//   .container {
+//     width: 1326px;
+//     padding-left: 15px;
+//     padding-right: 15px;
+//     margin-left: auto;
+//     margin-right: auto;
+
+// }

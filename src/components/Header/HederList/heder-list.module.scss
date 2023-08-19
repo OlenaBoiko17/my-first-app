@@ -1,0 +1,25 @@
+.contact_list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 45px;
+    list-style: none;
+}
+
+.contact {
+  list-style: none;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  display: flex;
+  align-items: center;
+  color: #333333;
+}
+
+.icon {
+  fill: #EC1B2E;
+  margin-right: 20px;
+}
