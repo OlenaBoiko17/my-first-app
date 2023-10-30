@@ -1,28 +1,25 @@
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
-
-import Header from './components/Header';
-import Main from './components/Main/Main';
+import Navbar from './components/Navbar/Navbar';
+import Main from './modules/Main/Main';
+import Footer from './modules/Footer/Footer';
+import Payment from './modules/Payment/Payment';
 
 
 import './styles/styles.scss'
 
 
 
-
-
-import headerList from './data/headerList.json';
-import headerNavList from './data/headerNavList.json';
-
-
 function App() {
   return (
-   <>
-   <Header title="ШКОЛА испанского ЯЗЫКА  «ЛаВИта» в петербурге" items={headerList}  links={headerNavList} />
-   <Main
-   />
-   
-   
-   </>
+  <BrowserRouter >
+      <Navbar title="ШКОЛА испанского ЯЗЫКА  «ЛаВИта» в петербурге"  />
+    <Routes>
+      <Route path="/"  element={<Main/> }  />
+      <Route path="/payment"  element={<Payment />} />
+    </Routes>
+    <Footer />
+  </BrowserRouter >
   );
 }
 

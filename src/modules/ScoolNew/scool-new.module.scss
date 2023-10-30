@@ -1,0 +1,75 @@
+.new__scool {
+  padding-top: 150px;
+  }
+  
+.title {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 30px;
+  line-height: 140%;
+  text-align: left;
+  letter-spacing: 0.01em;
+  color: #333333;
+  text-align: center;
+  font-size: 48px;
+  }
+  
+.list {
+  list-style: none;
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 24px;
+  }
+  
+.link {
+  margin-top: 100px;
+  width: 306px;
+  margin-right: 24px;
+  }
+  
+.caption {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 140%;
+  color: #333333;
+  height: 102px;
+    
+  }
+  
+.text {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: #333333;
+  margin-top: 75px;
+  height: 132px;
+  }
+  
+
+.btn {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 140%;
+  color: #fff;
+  background-color: #EC1B2E;
+  width: 163px;
+  height: 58px;
+  padding: 15px 30px;
+  margin-top: 70px;
+  border: none;
+  }
+
+
+.btn:focus,
+.btn:hover {
+  background: rgb(65, 7, 12);
+  }
+
+  

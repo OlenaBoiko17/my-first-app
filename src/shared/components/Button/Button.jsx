@@ -13,6 +13,6 @@ Button.defaulProps ={
 }
 
 Button.propTypes = {
-    type: PropTypes.string,
+    type: PropTypes.oneOf(['submit', 'button', 'reset'])
 
 }

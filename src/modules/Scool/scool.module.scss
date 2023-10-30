@@ -1,0 +1,40 @@
+.scool {
+  position: relative;
+  padding: 157px;
+    }
+  
+.wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+    }
+  
+.title {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 140%;
+  letter-spacing: 0.01em;
+  color: #333333;
+  }
+  
+  
+.text {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  color: #333333;
+  width: 458px;
+  }
+
+.icon {
+  position: absolute;
+  fill: #EC1B2E;
+  opacity: 0.05;
+  right: 150px;
+  top: 198px;
+  }
+  

@@ -1,26 +1,31 @@
-import React from 'react';
-import PropTypes from 'prop-types';
 
-import HederList from '../Header/HederList/HederList'
-import HederNavList from '../Header/HederNavList/HederNavList';
-import Button from '../../shared/components/Button/Button';
+import { NavLink } from 'react-router-dom';
+import PropTypes from 'prop-types';
+import items from './items';
+import links from './links';
 import MyIcon from '../../Images/icon.svg';
 
 import styles from './header.module.scss';
 
 console.log(styles);
-const Header = ({title, items, links}) => {
-    const element = items.map(item => <HederList key={item.id} {...item}/>);
-    const elementNav = links.map(link => <HederNavList key={link.id} {...link}/>);
+const Navbar = ({title}) => {
+    const element = links.map(({id, way, svg, contact}) => <li key={id}  className={styles.contact_link}>
+    <NavLink to={way} className={styles.contact}>
+        <svg className={styles.icon} width="24" height="24">
+            <use href={svg}></use>
+        </svg>
+        {contact}</NavLink></li>);
+    const elementNav = items.map(({id, text, link}) => <li key={id} className={styles.nav_link}>
+    <NavLink to={link} className={styles.nav_item}>{text}</NavLink></li>)
     return (
-        <header className="header">
+        <header className={styles.header}>
         <div className="container">
                 <div className={styles.connect}>
                    {title && <h1 className={styles.title}>{title}</h1>}
                    <ul className={styles.contact_list}>
                     {element}
                    </ul>
-                   <Button type='button'>Запись на курсы</Button>
+                   <button className={styles.btn} type='button'>Запись на курсы</button>
                 </div>
                 <div className={styles.line}></div>
                 <div className={styles.content}>
@@ -39,12 +44,12 @@ const Header = ({title, items, links}) => {
     </header> 
     )
 }
-export default Header;
-Header.defaulProps = {
+export default Navbar;
+Navbar.defaulProps = {
     items: [],
     links: []
 }
-Header.propTypes = {
+Navbar.propTypes = {
     title: PropTypes.string,
     items: PropTypes.arrayOf(PropTypes.shape({
         id: PropTypes.string.isRequired,
