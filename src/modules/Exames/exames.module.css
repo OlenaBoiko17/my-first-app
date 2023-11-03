@@ -1,0 +1,140 @@
+.exams {
+  padding-top: 150px;
+}
+
+.title {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 140%;
+  text-align: center;
+  letter-spacing: 0.01em;
+  color: #333333;
+}
+
+.list {
+  list-style: none;
+  display: flex;
+  margin-top: 100px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.link {
+  margin-top: 30px;
+  width: calc(25% - 24px);
+}
+
+.caption {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 140%;
+  text-align: center;
+  color: #333333;
+  margin-top: 30px;
+  padding-left: 20px;
+}
+
+.text {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: #333333;
+  margin-top: 20px;
+  width: 266px;
+  margin-left: 40px;
+}
+
+.caption {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 140%;
+  text-align: center;
+  color: #333333;
+  width: 306px;
+}
+
+.caption:hover,
+.caption:focus {
+  color: var(--accent-color);
+}
+
+.btn {
+  margin-top: 45px;
+  border: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 140%;
+  text-align: center;
+  color: #fff;
+  background-color: #EC1B2E;
+  width: 163px;
+  height: 58px;
+  padding: 15px 20px;
+  margin-left: 70px;
+}
+
+.btn:focus,
+.btn:hover {
+  background: rgb(65, 7, 12);
+}
+
+.tables__link {
+  height: 176px;
+  margin-bottom: 30px;
+  border-bottom: 1px solid rgb(51, 51, 51);
+  display: flex;
+}
+
+.tables__text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  color: #333333;
+  width: 160px;
+  margin-right: 20px;
+  padding: 10px 81px 10px 20px;
+}
+
+.info__text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  color: #333333;
+  width: 300px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 18px;
+  height: 68px;
+  word-spacing: 5px;
+}
+
+.desc__text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  color: #333333;
+  width: 596px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 18px;
+}
+
+.span__text {
+  width: 25px;
+  background-color: #EC1B2E;
+  color: #fff;
+  height: 20px;
+}/*# sourceMappingURL=exames.module.css.map */
