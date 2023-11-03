@@ -12,7 +12,7 @@ import './styles/styles.scss'
 
 function App() {
   return (
-  <BrowserRouter >
+  <BrowserRouter basename="/OlenaBoiko17" >
       <Navbar title="ШКОЛА испанского ЯЗЫКА  «ЛаВИта» в петербурге"  />
     <Routes>
       <Route path="/"  element={<Main/> }  />
