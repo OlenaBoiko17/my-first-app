@@ -1,7 +1,7 @@
 {
   "name": "my-first-app",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "homepage": "https://OlenaBoiko17.github.io/my-first-app",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
