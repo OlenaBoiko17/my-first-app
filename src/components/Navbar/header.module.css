@@ -1,0 +1,131 @@
+.list {
+  list-style: none;
+}
+
+.header {
+  padding-top: 20px;
+}
+
+.connect {
+  display: flex;
+  align-items: center;
+}
+
+.title {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 140%;
+  letter-spacing: 0.28px;
+  text-transform: uppercase;
+  color: #EC1B2E;
+  display: flex;
+  align-items: center;
+  text-align: left;
+  margin-right: 131px;
+  width: 217px;
+  height: 40px;
+}
+
+.contact_list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 45px;
+  list-style: none;
+}
+
+.contact {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 140%;
+  display: flex;
+  align-items: center;
+  color: #333333;
+}
+
+.icon {
+  fill: #EC1B2E;
+  margin-right: 20px;
+  margin-left: 0;
+}
+
+.btn {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 140%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  background-color: #EC1B2E;
+  min-width: 143px;
+  height: 40px;
+  margin: auto 0 auto 198px;
+  border: none;
+}
+
+.btn:focus,
+.btn:hover {
+  background: rgb(65, 7, 12);
+}
+
+.line {
+  content: "";
+  width: 1296px;
+  height: 1px;
+  background-color: rgb(51, 51, 51);
+  margin-top: 20px;
+  opacity: 0.3;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+}
+
+.nav_list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  list-style: none;
+}
+
+.nav_link {
+  margin-right: 20px;
+}
+
+.nav_item {
+  list-style: none;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 140%;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: #333333;
+  text-align: center;
+  display: flex;
+}
+
+.nav_item:global(.active) {
+  color: #EC1B2E;
+}
+
+.scool-icon {
+  fill: #EC1B2E;
+  opacity: 0.05;
+}
+
+.logo__icon {
+  margin-right: 167px;
+  fill: #EC1B2E;
+}/*# sourceMappingURL=header.module.css.map */

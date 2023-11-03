@@ -1,0 +1,26 @@
+.btn {
+  position: absolute;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 140%;
+  color: #FFFFFF;
+  background-color: #EC1B2E;
+  width: 163px;
+  height: 58px;
+  margin-top: 50px;
+  top: 493px;
+  left: 420px;
+  border: none;
+}
+
+.btn:focus,
+.btn:hover {
+  background: rgb(65, 7, 12);
+}
+
+.btn.active {
+  background-color: pink;
+  color: #000;
+}/*# sourceMappingURL=button.module.css.map */
